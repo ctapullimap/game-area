@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juegos Interactivos</title>
+    <link rel="stylesheet" href="./estilos.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Juegos Interactivos</h1>
+    </header>
+
+    <main>
+      <div class="button-container">
+        <button onclick="jugarHermanos()">Juego Hermanos</button>
+        <button onclick="jugarBloques()">Juego Bloques</button>
+        <button onclick="jugarYankenpo()">Yankenpo</button>
+      </div>
+
+      <div id="game-area">
+        <!-- Aquí se mostrarán los resultados de los juegos -->
+      </div>
+
+      <button onclick="limpiarGameArea()" class="btn-limpiar">
+        Limpiar Área
+      </button>
+    </main>
+
+    <script src="./aplicacion.js"></script>
+  </body>
+</html>
